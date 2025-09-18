@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <!--
+        IMPORTANT TO GET A MOBILE ALTERNATIVE VERSION OF THIS WEBSITE FOR ACCESSIBILITY
+    -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive meta tag -->
+    <title>Furry @ York Home Page</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/cover.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
+    <!-- Scripts -->
+    <link rel="icon" type="image/x-icon" href="images\FURRY_Favicon_Red.png">
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <!-- SUBSECTIONS -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="executiveTeam.html">Executives</a></li>
+                <li class="has-submenu"><a href="#">Resources</a>
+                    <ul class="submenu">
+                        <li><a href="https://yuconnect.yorku.ca/furry/past-newsletters/" target="_blank">Past Newsletters</a></li>
+                        <li><a href="https://yuconnect.yorku.ca/furry/surveys-forms/" target="_blank">Surveys & Forms</a></li>
+                        <li><a href="https://yuconnect.yorku.ca/furry/useful-links/" target="_blank">Useful Links</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            <!-- Cover, with background group photo, the club logo, the club name & the registration link -->
+            <div class="cover">
+                <div class="logo">
+                    <img src="images/FURRY_Favicon_White.png" alt="Furry @ York Logo">
+                </div>
+                <div class="cover-text">
+                    <div>
+                        <h1>Furry @ York</h1>
+                        <p class="tagline">A Toronto based club for post-secondary students in the furry fandom</p>
+                    </div>
+                    <div class="button">
+                        <a href="https://yuconnect.yorku.ca/furry/club_signup" target="_blank">Register on YUConnect</a>
+                    </div>
+                </div>
+            </div>
+
+        <!-- About Us -->
+        <section class="about">
+            <div class="container">
+                <h2 id="about-heading">About Us</h2>
+                <p>Started in 2024, Furry @ York is a community crafted for students in the GTA who are interested in furries and anthropomorphism.</p>
+                <p>Our club is run by students, for students.</p>
+            </div>
+        </section>
+
+        <section class="mission">
+            <div class="container">
+                <h2 id="mission-heading">Our Mission</h2>
+                <p>Our club's mission is to connect post-secondary students and faculty with the fandom and providing students with fun workshops, events, and activities that they can apply to their hobbies and major.</p>
+            </div>
+        </section>
+
+        <!-- TODO: Have a carousel on the right half of this container, circling through our past events with the appropriate captions.-->
+        <section class="benefits">
+            <div class="container">
+                <h2 id="mission-heading">Membership Benefits</h2>
+                <p>Furry @ York offers several benefits to registered York University members, including:</p>
+                <ul>
+                    <li>Access to exclusive events and drop-in sessions</li>
+                    <li>Sign-ups for our craft workshops</li>
+                    <li>Student-exclusive offers and opportunities</li>
+                </ul>
+                <p>If you are not a York University student, but are interested in joining our community, you can join our Discord server as a visitor.</p>
+            </div>
+
+            <!-- Events Carousel 
+                TODO: Use Javascript to add events (I forget how, will look into it)-->
+            <div class="carousel">
+                <div class="carousel-item fade">
+                    <img src="images\events\Halloween_Furmeet_2024.jpg" alt="Event 1">
+                    <p>Halloween Furmeet 2024</p>
+                </div>
+                <div class="carousel-item fade">
+                    <img src="images\events\White_Elephant.jpg" alt="Event 2">
+                    <p>White Elephant Gift Exchange</p>
+                </div>
+                <div class="carousel-item fade">
+                    <img src="images\events\FAMU_FE2025.jpg" alt="Event 3">
+                    <p>Furries at my University??? (Furnal Equinox Panel)</p>
+                </div>
+            </div>
+
+        </section>
+        <!-- Have a separate page for Volunteering Opportunities-->
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2024 Furry @ York. </p>
+        </div>
+    </footer>
+
+    <script src="scripts/carousel.js"></script>
+</body>
+
+</html>
